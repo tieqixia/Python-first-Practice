@@ -186,8 +186,8 @@ Exercises 1
 * Install Anaconda and update it in order to have the  newest version of all packages. We shall use Python 3.4 (and not the previous Python 2.7 version).
 * Start Spyder and compute 7 \** 6 by typing:    
 
-x = 7 ** 6  
-print (x)  
+  x = 7 ** 6  
+  print (x)  
 
 * Start IPython Notebook and compute 7 \** 6
 
