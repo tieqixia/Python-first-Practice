@@ -193,17 +193,22 @@ Exercises 1
 
 
 ## 缩进（Indentation）
-* 在某些语句之后，会加一个缩进; 缩进减少，则表示当前块结束。
+* 在语句之后，会有缩进；缩进减少，则表示当前块结束。
 * 例如
-    x = 7 ** 6
-    print（x）#witt. fron't  inden-tation
+    
+  x = 7 ** 6 print(x)  
+  # invalid syntax  
+
 * 段代码在Python中是错误的，虽然它在C ++，Matlab和许多其他代码或应用程序中是可以接受的。
 
 --------------
 
 * An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.
 * For e.g
-x = 7 ** 6          print (x)  # witt. fron't  inden-tation
+
+  x = 7 ** 6 print(x)
+  # invalid syntax
+  
 * This piece of code will be error in Python, though it is acceptable in C++, Matlab and many other code or applications.
 
 ```python
