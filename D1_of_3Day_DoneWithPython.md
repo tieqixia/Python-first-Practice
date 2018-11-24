@@ -177,7 +177,7 @@ Today's arrangements
   x = 7 ** 6  
   print(x)  
   
-* 启动IPython Notebook并计算7的6次方
+* 启动 IPython Notebook 并计算7的6次方
 
 -----------------
 
@@ -197,7 +197,7 @@ Exercises 1
 * 例如
     
   x = 7 ** 6 print(x)  
-  # invalid syntax  
+  \# invalid syntax  
 
 * 段代码在Python中是错误的，虽然它在C ++，Matlab和许多其他代码或应用程序中是可以接受的。
 
@@ -206,8 +206,8 @@ Exercises 1
 * An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block.
 * For e.g
 
-  x = 7 ** 6 print(x)
-  # invalid syntax
+  x = 7 ** 6 print(x)  
+  \# invalid syntax
   
 * This piece of code will be error in Python, though it is acceptable in C++, Matlab and many other code or applications.
 
