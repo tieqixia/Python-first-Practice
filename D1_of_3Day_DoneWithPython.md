@@ -173,7 +173,10 @@ Today's arrangements
 ## 练习1
 * 安装Anaconda并更新它以便拥有所有包的最新版本。我们将使用Python 3.4（而不是以前的Python 2.7版本）。
 * 启动 Spyder 输入以下内容来计算7的6次方
-  x = 7 ** 6   print（x）
+
+  x = 7 ** 6  
+  print（x）  
+  
 * 启动IPython Notebook并计算7的6次方
 
 -----------------
@@ -181,14 +184,12 @@ Today's arrangements
 Exercises 1
 
 * Install Anaconda and update it in order to have the  newest version of all packages. We shall use Python 3.4 (and not the previous Python 2.7 version).
-* Start Spyder and compute 76 by typing:    
+* Start Spyder and compute 7 \** 6 by typing:    
 
-x = 7 ** 6  print (x)
+x = 7 ** 6  
+print (x)  
 
-* Start IPython Notebook and compute 76
-
-```python
-```
+* Start IPython Notebook and compute 7 \** 6
 
 
 ## 缩进（Indentation）
