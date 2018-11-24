@@ -175,7 +175,7 @@ Today's arrangements
 * 启动 Spyder 输入以下内容来计算7的6次方
 
   x = 7 ** 6  
-  print（x）  
+  print(x)  
   
 * 启动IPython Notebook并计算7的6次方
 
