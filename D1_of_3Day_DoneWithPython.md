@@ -345,7 +345,7 @@ print(w.strip('http://')) #delete sth
 
 ## Python功能：索引（Python features: Indexing）
 * Python具有与C ++类似的索引规则，其起始索引为0。
-* 当通过索引返回值时，间隔实际上是[，]样式，这意味着不包括终端索引。
+* 当通过索引返回值时，间隔按照集合的表现方式实际上是[，)样式，这意味着不包括终端索引。
 
 --------------------------------
 * Python  has similar indexing rules with C++ , where its starting index is 0.
