@@ -190,10 +190,6 @@ print (decimal.Decimal (9.995))
 The last "print" returns
 9.9949999999999992184029906638897955417633056640625,
 which is exactly how 9.995 is stored in the hardware.
-```
-
-```python
-```
 
 ## 练习3：字符串str的一些功能（Exercise3:Some functions for str）
 ```python
