@@ -345,7 +345,7 @@ print(w.strip('http://')) #delete sth
 
 ## Python功能：索引（Python features: Indexing）
 * Python具有与C ++类似的索引规则，其起始索引为0。
-* 当通过索引返回值时，间隔按照集合的表现方式实际上是[，)样式，这意味着不包括终端索引。
+* 当通过索引返回值时，间隔按照集合的表现方式实际上是[，)样式，这意味着不包括末端索引。
 
 --------------------------------
 * Python  has similar indexing rules with C++ , where its starting index is 0.
@@ -362,8 +362,8 @@ print(w.strip('http://')) #delete sth
 |Dictionary|dict|d = {'Name': 'Kobe', 'Country':'US'}|
 |Set|set|e = set(['u','d','ud','d','du'])|
 
-* 元组（tuple）只有几种方法可以更改。
-* 列表（list）比元组更灵活。
+* 元组（tuple）本身不可修改，需要修改智能生成新的元组。
+* 列表（list）比元组更灵活，可以对自身进行修改。
 * 字典（dict）是一个键值对存储对象。
 * 集合（set）是对象中唯一的无序集合对象。
 
@@ -381,10 +381,15 @@ print(w.strip('http://')) #delete sth
 ```python
 
 l = [1, 2, 3.14, 'data'] #list
-print (type(l))l.append ([4,  3])
-print(l)l.extend (['delta' ,5 ,6] )   #add  a  list
-print(l)l.insert(3, 'beta')  #insert  before  index 3
-print(l)l.remove ('data')   #delete an elementprint(l)
+print (type(l))
+l.append ([4,  3])
+print(l)
+l.extend (['delta' ,5 ,6] )   #add  a  list
+print(l)
+l.insert(3, 'beta')  #insert  before  index 3
+print(l)
+l.remove ('data')   #delete an elementprint(l)
+print(l)
 ```
 ```python
 <class 'list'>    
