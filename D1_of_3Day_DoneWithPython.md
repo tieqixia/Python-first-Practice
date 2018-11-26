@@ -206,14 +206,14 @@ w = 'http://www.google.com'
 print(w.strip('http://')) #delete sth
 ```
 ```python
-    He is a string. who are you?    
-    ['He', 'is', 'a', 'string.', 'Who', 'are', 'you?']
-    3
-    11    
-    -1    
-    He i    
-    He|is|a|string.|Who|are|you?    
-    www.google.com    
+He is a string. who are you?    
+['He', 'is', 'a', 'string.', 'who', 'are', 'you?']
+3
+11    
+-1    
+He i    
+He|is|a|string.|Who|are|you?    
+www.google.com    
 ```
 
 ```python
