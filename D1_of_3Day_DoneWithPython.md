@@ -177,13 +177,6 @@
 * 可以使用“round()”功能控制显示精度，但也有上述情况，这意味着round(9.995,2)返回9.99而不是10，因为9.995的存储稍小于9.995。
 * decimal Library将给出精确的存储值，请参见以下示例。
 
-----------------
-
-* Try to type 0.1+0.2 in your console. You will find that the value is  - 0.30000000000000004            * This is in the very nature of binary floating-point. You can see the same kind of thing in all languages that support your hardware's floating-point arithmetic.* The display precision can be controled using "round()" function, but it also has above situation, which means round(9.995, 2) returns 9.99 rather than 10, since 9.995 is stored slightly smaller than 9.995.* Library decimal would give precise stored value, See the following example.
-
-```python
-```
-
 ## 例子（Example）
 ```python
 import  decimal  
