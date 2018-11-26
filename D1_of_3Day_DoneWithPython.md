@@ -199,7 +199,7 @@ Exercises 1
   x = 7 ** 6 print(x)  
   \# invalid syntax  
 
-* 段代码在Python中是错误的，虽然它在C ++，Matlab和许多其他代码或应用程序中是可以接受的。
+* 段代码在Python中是错误的，虽然它在C++，Matlab和许多其他代码或应用程序中是可以接受的。
 
 --------------
 
@@ -245,7 +245,7 @@ Exercises 1
 
 * 备注：   
 - 在Python 2.7中，int与另一个int运算将导致int结果。 但是，一个浮点运算与int会导致浮点数。   
-- 在Python 3.x中，int与另一个int运算将导致浮点数。
+- 在Python 3.x中，int与另一个int运算除法的时候，将得到一个浮点数。
 -----
 
 * Remarks:  - In Python 2.7, an int operates with another int will lead to an int result. However, a float operates with an int will lead to a float.  - In Python 3.x, an int operates with another int will lead to a float.
@@ -271,14 +271,14 @@ Exercises 1
 * 猜下面代码的结果。执行他们，看答案。
 * Try to guess the results of the following code. Implement them and check your answers. 
 - a = 10   # int 
-- b = 3.14 # fLoat 
+- b = 3.14 # float 
 - c = 3    #int 
 - d = a ** 2 # square of a 
 - print (type (d))    # return the type of d  
 - print (type (d/l0)) # return the type of d/l0 
 - print (type (a/b))  # return the type of a/b 
 - print (type (a/c))  # return the type of a/c 
-- print (type (b*d))  # return the type of b*d
+- print (type (b\*d))  # return the type of b\*d
 
 ```python
 ```
@@ -288,7 +288,7 @@ Exercises 1
 - 0.30000000000000004
 
 * 这是二进制浮点的本质。 您可以在支持硬件浮点运算的所有语言中看到同样的东西。
-* 可以使用“round（）”功能控制显示精度，但也有上述情况，这意味着round(9.995,2)返回9.99而不是10，因为9.995的存储稍小于9.995。
+* 可以使用“round()”功能控制显示精度，但也有上述情况，这意味着round(9.995,2)返回9.99而不是10，因为9.995的存储稍小于9.995。
 * decimal Library将给出精确的存储值，请参见以下示例。
 
 ----------------
@@ -303,8 +303,8 @@ Exercises 1
 import  decimal  
 # import  the  libray  "decimal"    
 # display  2  decimal  precision
-print (round (3*1415 ,   2))   #  result  3. 14
-print (round (9 .995 ,   2))   #  result  9. 99
+print(round (3.1415,2))   #  result  3. 14
+print(round (9.995,2))   #  result  9. 99
 
 #call   function   "Decimal "  from lib "decimal"
 print (decimal.Decimal (9.995))
@@ -331,7 +331,8 @@ print(w.strip('http://')) #delete sth
 ```
 ```python
     He is a string. who are you?    
-    ['He', 'is', 'a', 'string.', 'Who', 'are', 'you?']    
+    ['He', 'is', 'a', 'string.', 'Who', 'are', 'you?']
+    3
     11    
     -1    
     He i    
